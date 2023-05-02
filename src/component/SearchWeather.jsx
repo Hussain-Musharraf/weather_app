@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 const SearchWeather = () => {
-  const [search, setSearch] = useState("Noida"); 
+  const [search, setSearch] = useState("New Delhi"); 
   const [data, setData] = useState([]);
   const [input, setInput] = useState("");
   let componentMunted = true;
